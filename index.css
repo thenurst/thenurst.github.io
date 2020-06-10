@@ -1,5 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-image: url(spaceeee.jpg);
+    background-size: 100%;
+    color: aliceblue;
 }    
 
 .imagee{
@@ -21,7 +24,7 @@ body{
 
 .links{
     margin-left: 20px;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     
 }
@@ -31,6 +34,7 @@ body{
     padding-bottom: 35px;
     text-align: center;
     font-size: 100px;
+    margin: 0px auto;
 }
 .learn{
     font-size: 15px;
@@ -43,6 +47,7 @@ body{
 .info{
     width: 17ch;
     text-align: center;
+    margin: 0 auto;
     font-size: 40px;
     font-family: 'Inconsolata', monospace;
     white-space: nowrap;
