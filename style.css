@@ -5,6 +5,12 @@ body{
     color: aliceblue;
 }    
 
+#clock{
+    color: red;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px;
+}
 .imagee{
     width: 1200px;
     height: 500px;
@@ -48,7 +54,7 @@ body{
     padding-bottom: 35px;
     text-align: center;
     font-size: 100px;
-    margin: 0px auto;
+    margin: 60px auto 100px;
 }
 
 #W{
@@ -109,18 +115,21 @@ p{
     }
 }
 
-.contacs{
-    margin: 200px auto 15px auto;
-}
-#inbox{
-    color:red;
-}
-#gmail{
-    color: blue;
+.stil{
+    margin: 120px 10px 0 420px;
+    animation: meme 2s infinite;
 }
 
-.wannaleave{
-    display: flex;
-    flex-direction: column;
-    
+@keyframes meme{
+    0%{
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(0%)
+    }
+    100%{
+        transform: translateY(-100%);
+    }
 }
+
+
