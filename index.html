@@ -7,7 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body> 
-   <script src="javas.js"></script>
+   <script src="script.js">
+        function clockes(){
+        var display = document.getElementById("clock");
+        var now = new Date();
+        display.innerHTML = now.toLocaleTimeString();
+        setTimeout(clockes, 1000);
+        } 
+    
+        window.onload = clockes;    
+   </script>
     <header>
         <div class="container">
             <div class="headin">
