@@ -15,18 +15,32 @@ body{
 }
 .headin{
     margin: 15px 15px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .nav{
     display: inline-block;
-    margin: 0px 410px;
+    margin: 0 0 0 700px;
+    
 }
 
 .links{
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 18px;
     text-decoration: none;
+    background-color: red;
     
+    border: 1px solid red;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    
+    transition-duration: 0.4s;
+}
+
+.links:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
 }
 
 .sectionin{
@@ -36,16 +50,36 @@ body{
     font-size: 100px;
     margin: 0px auto;
 }
+
+#W{
+    color: red;
+}
+p{
+    margin: 0;
+    font-weight: 550;
+}
+
 .learn{
     font-size: 15px;
+    font-weight: 400;
     border: 3px solid red;
-    padding: 10px 15px;
+    border-radius: 100px;
+    padding: 5px 30px;
     text-decoration: none;
     color: white;
     background-color: red;
+
+    transition-duration: 0.3s;
 }
+
+.learn:hover{
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+
 .info{
-    width: 17ch;
+    width: 12ch;
     text-align: center;
     margin: 0 auto;
     font-size: 40px;
@@ -74,10 +108,19 @@ body{
         width: 0;
     }
 }
-.education{
-    text-align: center;
-    margin: 50px 0px;
-    font-family: monospace;
-    font-size: 20px;
+
+.contacs{
+    margin: 200px auto 15px auto;
+}
+#inbox{
+    color:red;
+}
+#gmail{
+    color: blue;
 }
 
+.wannaleave{
+    display: flex;
+    flex-direction: column;
+    
+}
