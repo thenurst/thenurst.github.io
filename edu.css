@@ -1,0 +1,494 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/wall.jpg);
+    background-size: cover;
+}
+
+.section{
+    margin-top: 20px;
+    
+    
+    display: flex;
+    flex-direction: row;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    max-width: 948px;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+.left_side{
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    width: 140px;
+    height: 120px;
+    background-color: #0F0F0F;
+}
+
+/* header */
+
+.header{
+    position: sticky;
+    top: 0px;
+    
+    padding-top: 10px;
+    width: 100%;
+    width: 984px;
+    margin: 0 auto;
+    
+    background-color: #0F0F0F;
+    
+    height: 110px;
+}
+
+.header_container{
+    max-width: 948px;
+    width: 100%;
+    
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*garyshker logo*/
+
+.garyshker_logo_img{
+    display: block;
+    width: 100px;    
+    margin-left: 20px;
+    
+    z-index: 1000;
+}
+
+/* nav */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 0px;
+}
+
+.five_img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 148px;
+    height: 60px;
+    
+    border: 2px black solid;
+    
+    transition: border .2s linear;
+}
+
+.five_img:hover{
+   
+    border: 2px #FCC419 solid; 
+
+}
+
+.dis{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 148px;
+    height: 60px;
+    
+    border: 2px #fcc419 solid;
+}
+
+/*read watch*/
+
+.watch_read{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 2px;
+}
+
+.watch{
+    color: #fcc419;
+    
+    border-radius: 10px;
+    padding: 0px 5px 3.5px 4px;
+    
+    border: 1px solid #fcc419;
+    
+    transition: all .2s linear;
+    font-size: 14px;
+}
+
+.read{
+    color: #fcc419;
+    
+    border-radius: 10px;
+    padding: 0px 5px 3.5px 4px;
+    
+    border: 1px solid #fcc419;
+    
+    transition: all .2s linear;
+    
+    text-align: center;
+    
+    font-size: 14px;
+}
+
+
+.watch:hover{
+    color: white;
+}
+
+.read:hover{
+    color: white;
+}
+
+ 
+/*vse temy*/
+
+.vse_temy{
+    color: #fcc419;
+    
+    border-radius: 10px;
+    padding: 0px 5px 3.5px 4px;
+    
+    border: 1px solid #fcc419;
+    
+    
+    transition: all .2s linear;
+}
+
+.vse{
+    
+    right: 0;
+    margin-top: 10px;
+    padding: 0px 5px;
+    font-size: 14px;
+    
+    margin-left: 755px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.vse_temy:hover{
+    color: white;
+}
+
+/*mr ml mt*/
+
+.mr{
+    margin-right: 12px;
+}
+
+.ml{
+    margin-left: 12px;
+}
+
+.mt{
+    margin-top: 10px;
+}
+
+/* blocks*/
+
+.blockv{
+    width: 308px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.blocka{
+    width: 148px;
+    height: 170px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*mobile logo*/
+
+.garyshker_logo_img_m{
+    width: 100px;
+    top: -13px;
+}
+
+
+/* obr dobro shetinde mobile version*/
+
+.obr{
+    display: none;
+    
+    position: fixed;
+    
+    color: black;
+    background-color: #fcc419;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    height: 30px;
+     
+    right: 100%;
+    top: 250px; 
+    
+    transform-origin: 100% 100%;
+    transform: rotate(90deg);
+}
+
+.dobro a{
+    color: black;
+}
+
+.dobro{
+    display: none;
+    
+    position: fixed;
+    
+    color: black;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 5px 5px 5px;
+    height: 20px;
+     
+    right: 100%;
+    top: 312px; 
+    
+    transform-origin: 100% 100%;
+    transform: rotate(90deg);
+}
+
+
+/* modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.modal--open {
+  display: flex;  
+
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, .9);
+
+  padding: 15px;
+}
+
+.modal__content {
+  background-color: #1E1E1E;
+  width: 1000px;
+  height: 350px;
+
+  border-radius: 20px;
+
+  padding: 10px;
+}
+
+
+/* filter*/
+
+.hide{
+    display: none;
+}
+
+/*modal video*/
+
+.modal__video{
+    display: flex;
+    flex-direction: row;
+    
+    overflow-y: auto;
+}
+
+
+
+
+/* header mobile*/
+
+.header_mobile{
+    display: none;
+}
+
+/* media */
+
+@media (max-width:1246px){
+    
+    .left_side{
+        display: none;
+    }
+    
+    .garyshker_logo_m{
+        display: block;
+        position: relative;
+    }
+    
+    .garyshker_logo_img_m{
+        width: 220px;
+        margin-top: -65px;
+        right: 10px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 964px){
+    
+    .header{
+        display: none;
+    }
+    
+    .container{
+        max-width: 643px;
+        margin: 0 auto;
+    }
+    
+    .modal__video{
+        display: flex;
+        flex-direction: column;
+        
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .modal__content{
+        height: auto;
+    }
+    
+    .header_mobile{
+        display: block;
+        height: 30px;
+        position: sticky;
+        background-color: #0F0F0F;
+        width: 90%;
+        
+        margin: 15px auto 0px auto;
+        
+        display: flex;
+        flex-direction: row;
+        
+        border-radius: 10px;
+    }
+    
+    .obr, .dobro{
+        display: block;
+    }
+    
+    .header_mobile_second{
+        margin-top: 10px;
+    }
+    
+    .center_mobile_name{
+        padding: 0px 300px;
+    }
+        
+    .garyshker_logo_m{
+        position: relative;
+    }
+    
+    .garyshker_logo_img_m{
+        width: 220px;
+        margin-top: -65px;
+        margin-right: -80px;
+    }
+    
+    .container{
+        margin-top: 50px;
+    }
+    
+    .left_side{
+        display: none;
+    }
+    
+    .mtt{
+        margin-top: 10px;
+    }
+    
+    .mrr{
+        margin-right: 12px;
+    }
+    
+    
+}
+
+@media (max-width: 825px){
+    .center_mobile_name{
+        padding: 0px 150px;
+    }
+}
+
+@media (max-width:643px){
+    
+    .container{
+        max-width: 490px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:490px){
+    
+    .container{
+        max-width: 308px;
+    }
+    
+    .mr{
+        margin-right: 0px;
+    }
+    
+    .mrr{
+        margin-right: 12px;
+    }
+    
+    .center_mobile_name{
+        font-size: 20px;
+        
+        padding: 0px 80px;
+    }
+    
+    .mtm{
+        margin-top: 10px;
+    }
+    
+    .modal__video{
+        display: flex;
+        flex-direction: column;
+        
+        width: 308px;
+        margin: 0 auto;
+    }
+    
+    .modal__content{
+        height: auto;
+        width: 308px;
+    }
+    
+    
+}
+
+
+
+@font-face{
+    src: url('Akrobat-SemiBold.eot');
+    src: url('Akrobat-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Akrobat-SemiBold.woff') format('woff'),
+    url('Akrobat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
