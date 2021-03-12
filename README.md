@@ -1,4 +1,4 @@
 # thenurst.github.io
 first host
 
-i was cheking, that's why take it easy
+i was checking, that's why take it easy
