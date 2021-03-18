@@ -1,0 +1,121 @@
+.header{
+	height: 40px;
+	
+	padding-top: 60px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.logo{
+	margin-right: 100px;
+}
+
+.logoi{
+	height: 40px;
+	
+	margin-right: 10px;	
+}
+
+.logot{
+	height: 20px;
+	
+	margin-bottom: 10px;
+}
+
+
+
+.fourh{
+	display: inline;
+	padding: 10px 0px;
+}
+
+.fourh a{
+	margin-right: 50px;
+	
+	color: rgba(135, 148, 186, 1);
+}
+
+.sign{
+	margin-left: auto;
+	
+	display: flex;
+}
+
+.signi{
+	color: rgba(135, 148, 186, 1);
+	
+	border: 1px solid rgba(135, 148, 186, 0);
+	border-radius: 25px;
+	
+	padding: 9px 50px;
+	
+	transition: border .5s linear;
+}
+
+.signi:hover{
+	border: 1px solid rgba(135, 148, 186, 1);
+}
+
+/*body*/
+
+.body{
+	width: 1340px;
+	
+	margin-left: auto;	
+	
+	display: flex;
+}
+
+.btext{
+	width: 610px;
+	
+	margin-top: 200px;
+}
+
+.bth{
+	font-size: 50px;
+	color: white;
+	
+	margin-bottom: 15px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.btt{
+	font-size: 18px;
+	color: rgba(135, 148, 186, 1);
+	
+	line-height: 27px;
+}
+
+.btbt{
+	margin-top: 50px;
+	
+	padding: 15px 75px;
+	
+	color: white;
+		
+	height: 50px;
+	width: 238px;
+	border-radius: 30px;
+	
+	border: 1px solid rgba(135, 148, 186, 1);
+	
+	transition: background-color .2s linear;
+}
+
+.btbt:hover{
+	background-color: rgba(239, 42, 130, 1);
+	border: 1px solid rgba(239, 42, 130, 1);
+}
+
+.bimg{
+	background-image: url(../assets/img/122.png);
+	width: 804px;
+	height: 554.57px;
+	
+	margin-top: 93px;
+	margin-left: 120px;
+}

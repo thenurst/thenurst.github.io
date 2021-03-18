@@ -1,0 +1,116 @@
+.section3{
+	padding-top: 286px;
+	
+	height: 1208px;
+	
+	background-image: url(../assets/img/background-bottom.png);
+}
+
+.price{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	text-align: center;
+	
+	margin: 0 auto;
+}
+
+.priceh{
+	font-size: 40px;
+	font-weight: bold;	
+	
+	margin-bottom: 30px;
+	
+	color: white;
+}
+
+.pricet{
+	width: 600px;
+	
+	font-size: 18px;
+	line-height: 27px;
+	
+	color: rgba(135, 148, 186, 1);
+	
+	margin: 0px auto 80px;
+}
+
+.priceth{
+	display: flex;
+	flex-direction: row;
+	
+	width: 1181px;
+	
+	justify-content: space-between;
+}
+
+.pricethb{
+	width: 340px;
+	height: 440px;
+	
+	background-color: rgba(15, 31, 75, 1);
+	
+	border-radius: 20px;
+	
+	transition: background-color .3 linear;
+	
+	color: white;
+}
+
+.pricethb:hover{
+	background-color: white;
+}
+
+.pricen{
+	margin-top: 50px;
+	margin-bottom: 35px;
+	
+	font-size: 30px;
+	line-height: 32px;
+}
+
+.pricenb{
+	margin-bottom: 38px;
+	font-size: 18px;
+}
+
+.borderbot{
+	width: 100px;
+	
+	margin: 0 auto;
+	
+	border-bottom: 1px solid red;
+}
+
+.pricenb{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.pricenum{
+	margin-top: 28px;
+	font-size: 30px;
+}
+
+.pricenums{
+	margin-bottom: 50px;
+}
+
+.order{
+	
+	padding-top: 14px;
+	
+	border: 1px solid royalblue;
+	border-radius: 20px;
+	
+	width: 206px;
+	height: 50px;
+	
+	margin: 0 auto;
+}
+
+footer{
+	margin: 170px auto 100px;
+}
+

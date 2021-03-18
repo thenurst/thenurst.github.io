@@ -1,0 +1,93 @@
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	
+	margin-bottom: 150px;
+}
+
+.mainh{
+	font-size: 40px;
+	font-weight: bold;
+	
+	margin: 30px auto;
+}
+
+.maint{
+	width: 1060px;
+	text-align: center;
+	
+	color: rgba(135, 148, 186, 1);
+	
+	margin: 0px auto 90px;
+}
+
+.mainthree{
+	display: flex;
+	flex-direction: row;
+}
+
+.threeb{
+	width: 380px;
+	
+	text-align: center;
+	
+	margin: 0px 10px;
+}
+
+.threebh{
+	margin-top: 26px;
+	margin-bottom: 15px;
+	
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.threebt{
+	padding: 0px 5px;
+}
+
+.pngb{
+	height: 58px;
+	width: 60px;
+	
+	mask-image: url('../assets/png/time.svg');
+	color: red;
+}
+
+.two{
+	width: 1181px;
+	height: 410px;
+	
+	margin-bottom: 100px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.twot{
+	width: 480px;
+	margin-top: 90px;
+}
+
+.towth{
+	font-size: 40px;
+	line-height: 46,88px;
+	
+	font-weight: bold;
+	
+	margin-bottom: 30px;
+}
+
+.twott{
+	font-size: 18px;
+	line-height: 27px;
+	
+	color: rgba(135, 148, 186, 1);
+}
+
+.twoi{
+	width: 600px;
+	height: 410px;
+	border-radius: 30px;
+		
+}

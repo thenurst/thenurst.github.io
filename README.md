@@ -1,3 +1,4 @@
 # thenurst.github.io
+first host
 
-why we do it
+i was checking, that's why take it easy
